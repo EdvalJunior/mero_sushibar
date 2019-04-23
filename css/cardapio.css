@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pratos-cardapio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.imgContainer-cardapio .img-responsive{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.imgContainer-cardapio .img-responsive2{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.imgContainer-cardapio .img-responsive3{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+

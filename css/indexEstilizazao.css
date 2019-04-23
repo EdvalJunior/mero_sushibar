@@ -1,0 +1,138 @@
+*{
+    margin: 0;  
+    padding: 0;
+    /*background: #E2DDF0;*/
+}
+
+/*ESTILIZAÇÃO DO CORPO DO SLIDE*/
+#sliders{
+	list-style: none;  
+    position: relative; 
+	width: 700px;
+	height: 700px;
+    margin:0 auto;
+    overflow: hidden;
+}
+/*CONFUGURAÇÃO DOS ITENS DO SLIDE*/
+#sliders li{
+	position: absolute;
+	top:20px;
+	left:0;
+	opacity: 0;
+	z-index: 0;
+	-webkit-transition: opacity 2s;
+	-moz-transition: opacity 2s;
+	transition: opacity 2s;
+} 
+#sliders li.slider-active{
+	z-index: 1;
+	opacity: 1;
+}
+
+/*OPÇÕES SOBRE AS FORMAS DE COMER*/
+.modelo-comer{
+    text-align: center;
+    background: #696969;
+    position: relative;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #2F4F4F;
+}
+.formasComer{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+}
+.imgContainer .img-responsive{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.imgContainer .img-responsive:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.imgContainer2 .img-responsive2{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.imgContainer2 .img-responsive2:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.imgContainer3 .img-responsive3{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.imgContainer3 .img-responsive3:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.atendimentoSaque{
+    margin-top: 10px;
+}
+
+/*PRATOS DO DIA */
+.container-pratos{
+    text-align: center;
+    margin-top: 50px;
+}
+.container-pratos .sensacao{
+    background: #696969;
+    position: relative;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #2F4F4F;
+}
+.pratosDia{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.imgContainer-pratos .img-responsive{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 200px;
+}
+.imgContainer-pratos .img-responsive2{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 200px;
+}
+.imgContainer-pratos .img-responsive3{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 200px;
+}
+
+
+.imgContainer-pratos .img-responsive4{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 200px;
+}
+
+.imgContainer-pratos .img-responsive5{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 200px;
+}

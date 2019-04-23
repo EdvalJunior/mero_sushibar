@@ -1,0 +1,83 @@
+*{
+    margin: 0;  
+    padding: 0;
+    /*background: #E2DDF0;*/
+}
+
+/*HEADER DO HTML*/
+.cabecalhoPrincipal{
+    background: #696969;
+    padding: 20px;
+}
+.container-menu{
+    display: flex;
+    background: #696969;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecalho-principal-link{
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.cabecalho-menu{
+    margin-left: 10px;
+    margin-top: 10px;
+    background: #696969;
+}
+.nav-main{
+    position: relative;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+.nav-main a{
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 35px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 200px;
+}
+
+.nav-main a:hover{
+    background-color: #CC0000;
+    color: white;
+    padding: 35px;
+
+}
+
+
+/*RODAPÉ DA PÁGINA-FOOTER*/
+.contato-rodape{
+    background: #696969;
+    top: 0;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    background: #696969;
+}
+.contato-rodape{
+    text-align: center;
+    background: #696969;
+
+}
+.horario-funciona{
+    text-align: center;
+}
+.conteudo-horario .lista-contato li{
+    text-align: center;
+}
+
+.nome{
+    padding-top: 10px;
+    text-align: center;
+    background: #696969;
+}
