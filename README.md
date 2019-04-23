@@ -1,1 +1,1 @@
-# mero_sushibar
+# Mero - Sushi Bar
