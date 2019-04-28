@@ -18,8 +18,8 @@
                         <nav class="nav-main">
                             <a class="cabecalho-principal-link" href="index.html">INICIO</a>
                             <a class="cabecalho-principal-link" href="SobreNos.html">MERO SUSHI BAR</a>
-                            <a class="cabecalho-principal-link" href="">CARDÁPIO</a>
-                            <a class="cabecalho-principal-link" href="">RESERVA</a>
+                            <a class="cabecalho-principal-link" href="cardapio.html">CARDÁPIO</a>
+                            <a class="cabecalho-principal-link" href="reserva.html">RESERVA</a>
                         </nav>
                     </div>
                 </div>   
@@ -28,20 +28,22 @@
     <div class="Body">
         <section class="cardapio">
             <div class="container-cardapio">
-                <h1>Pratos</h1>
+                <h1>PRATOS</h1>
                 <div class="pratos-cardapio">
                         <!--FLEX ITEM DO PRATO 1-->
                     <div class="prato1">
                         <div class="icone-prato1" data-animation="fadeInUp" data-animation-delay="0">
                             <h4> Temaki de Camarão </h4>
                             <div class="imgContainer-cardapio">
-                                <img class="img-responsive" src="./img/temakiSalmao.jpg">   
+                                <img class="img-responsive" src="./img/temakiCamarao.png">   
                             </div>   
-                        </div>   
-                                <!--CAIXA DE TEXTO SOBRE APARECE SOBRE O PRODUTO-->               
+                        </div>                 
                         <div class="icon-preco-prato">
-                            <p>R$ 25.00</p>
-                        </div>       
+                            <center><p>R$ 25.00</p></center>
+                        </div>
+                        <div class="adcPedido">
+                            <button class="botao-adcPed">ADICIONAR AOS PEDIDOS</button>
+                        </div>        
                     </div>
                         <!--FLEX ITEM DO PRATO 2-->
                     <div class="prato2">
@@ -51,138 +53,425 @@
                                 <img class="img-responsive2" src="./img/Hossomaki.png">
                             </div> 
                             <div class="icon-preco-prato">
-                                <p>R$ 25.00</p>
+                                <center><p>R$ 25.00</p></center>
+                            </div> 
+                            <div class="adcPedido">
+                                <button class="botao-adcPed2">ADICIONAR AOS PEDIDOS</button>
+                            </div>
+                        </div>       
+                    </div>
+                        <!--FLEX ITEM DO PRATO 3-->
+                    <div class="prato3">
+                        <div class="icone-prato3" data-animation="fadeInUp" data-animation-delay="0">
+                            <h4> Makizushi </h4>
+                            <div class="imgContainer-cardapio">
+                                <img class="img-responsive3" src="./img/makizushi.jpg">
+                            </div> 
+                            <div class="icon-preco-prato">
+                                <center><p>R$ 25.00</p></center>
+                            </div>
+                            <div class="adcPedido">
+                                <button class="botao-adcPed3">ADICIONAR AOS PEDIDOS</button>
+                            </div>
+                        </div>       
+                    </div>
+                        <!--FLEX ITEM DO PRATO 4-->
+                    <div class="prato4">
+                        <div class="icone-prato4" data-animation="fadeInUp" data-animation-delay="0">
+                            <h4> Futomaki </h4>
+                            <div class="imgContainer-cardapio">
+                                <img class="img-responsive4" src="./img/futomaki.jpg">
+                            </div> 
+                            <div class="icon-preco-prato">
+                                <center><p>R$ 25.00</p></center>
+                            </div>
+                            <div class="adcPedido">
+                                <button class="botao-adcPed4">ADICIONAR AOS PEDIDOS</button>
                             </div> 
                         </div>       
                     </div>
-                    <div class="prato3">
-                            <div class="icone-prato2" data-animation="fadeInUp" data-animation-delay="0">
-                                <h4> Makizushi </h4>
-                                <div class="imgContainer-cardapio">
-                                    <img class="img-responsive3" src="./img/makizushi.jpg">
+                        <!--FLEX ITEM DO PRATO 5-->
+                    <div class="prato5">
+                        <div class="icone-prato5" data-animation="fadeInUp" data-animation-delay="0">
+                            <h4> Temaki de Salmão </h4>
+                            <div class="imgContainer-cardapio">
+                                <img class="img-responsive5" src="./img/temakiSalmao.jpg">
+                            </div> 
+                            <div class="icon-preco-prato">
+                                <center><p>R$ 25.00</p></center>
+                            </div> 
+                            <div class="adcPedido">
+                                <button class="botao-adcPed5">ADICIONAR AOS PEDIDOS</button>
+                            </div>
+                        </div>      
+                    </div>
+                        <!--FLEX ITEM DO PRATO 6-->
+                    <div class="prato6">
+                        <div class="icone-prato6" data-animation="fadeInUp" data-animation-delay="0">
+                            <h4> Kappamaki </h4>
+                            <div class="imgContainer-cardapio">
+                                    <img class="img-responsive6" src="./img/kapamaki.jpg">
                                 </div> 
                                 <div class="icon-preco-prato">
-                                    <p>R$ 25.00</p>
+                                    <center><p>R$ 25.00</p></center>
                                 </div> 
+                                <div class="adcPedido">
+                                    <button class="botao-adcPed6">ADICIONAR AOS PEDIDOS</button>
+                                </div>
                             </div>       
-                        </div>
+                    </div>
+                        <!--FLEX ITEM DO PRATO 7-->
+                    <div class="prato7">
+                        <div class="icone-prato7" data-animation="fadeInUp" data-animation-delay="0">
+                            <h4> Tekkamaki </h4>
+                            <div class="imgContainer-cardapio">
+                                <img class="img-responsive7" src="./img/tekkamaki.jpg">
+                            </div> 
+                            <div class="icon-preco-prato">
+                                <center><p>R$ 25.00</p></center>
+                            </div> 
+                            <div class="adcPedido">
+                                <button class="botao-adcPed7">ADICIONAR AOS PEDIDOS</button>
+                            </div>
+                        </div>       
+                    </div>
+                        <!--FLEX ITEM DO PRATO 8-->
+                    <div class="prato8">
+                        <div class="icone-prato8" data-animation="fadeInUp" data-animation-delay="0">
+                            <h4> Uramaki de camarão </h4>
+                            <div class="imgContainer-cardapio">
+                                <img class="img-responsive8" src="./img/uramaki-camarao.jpg">
+                            </div> 
+                            <div class="icon-preco-prato">
+                                <center><p>R$ 25.00</p></center>
+                            </div> 
+                            <div class="adcPedido">
+                                <button class="botao-adcPed8">ADICIONAR AOS PEDIDOS</button>
+                            </div>
+                        </div>       
+                    </div>
+                        <!--FLEX ITEM DO PRATO 9-->
+                    <div class="prato9">
+                        <div class="icone-prato9" data-animation="fadeInUp" data-animation-delay="0">
+                            <h4> Gunkanzushi </h4>
+                            <div class="imgContainer-cardapio">
+                                <img class="img-responsive9" src="./img/Gunkanzushi2.jpg">
+                            </div> 
+                            <div class="icon-preco-prato">
+                                <center><p>R$ 25.00</p></center>
+                            </div>
+                            <div class="adcPedido">
+                                <button class="botao-adcPed9">ADICIONAR AOS PEDIDOS</button>
+                            </div>
+                        </div>       
+                    </div>
+                        <!--FLEX ITEM DO PRATO 10-->
+                    <div class="prato10">
+                        <div class="icone-prato10" data-animation="fadeInUp" data-animation-delay="0">
+                            <h4> Chirashizushi </h4>
+                            <div class="imgContainer-cardapio">
+                                <img class="img-responsive10" src="./img/Chirashizushi.jpg">
+                            </div> 
+                            <div class="icon-preco-prato">
+                                <center><p>R$ 25.00</p></center>
+                            </div>
+                            <div class="adcPedido">
+                                <button class="botao-adcPed10">ADICIONAR AOS PEDIDOS</button>
+                            </div> 
+                        </div>      
+                    </div>
+                        <!--FLEX ITEM DO PRATO 11-->
+                    <div class="prato10">
+                        <div class="icone-prato11" data-animation="fadeInUp" data-animation-delay="0">
+                            <h4> Chirashizushi </h4>
+                            <div class="imgContainer-cardapio">
+                                <img class="img-responsive11" src="./img/Chirashizushi.jpg">
+                            </div> 
+                            <div class="icon-preco-prato">
+                                <center><p>R$ 25.00</p></center>
+                            </div>
+                            <div class="adcPedido">
+                                <button class="botao-adcPed11">ADICIONAR AOS PEDIDOS</button>
+                            </div> 
+                        </div>      
+                    </div>
+                        <!--FLEX ITEM DO PRATO 12-->
+                    <div class="prato10">
+                        <div class="icone-prato12" data-animation="fadeInUp" data-animation-delay="0">
+                            <h4> Chirashizushi </h4>
+                            <div class="imgContainer-cardapio">
+                                <img class="img-responsive12" src="./img/Chirashizushi.jpg">
+                            </div> 
+                            <div class="icon-preco-prato">
+                                <center><p>R$ 25.00</p></center>
+                            </div>
+                            <div class="adcPedido">
+                                <button class="botao-adcPed12">ADICIONAR AOS PEDIDOS</button>
+                            </div> 
+                        </div>      
                     </div>
                 </div>
             </div>
         </section>
+        <div class="accordion">
+            <!--FLEX ITEM DO PRATO 13-->
+            <div class="container-pratos-accordion">
+                <div class="prato13">
+                    <div class="icone-prato1" data-animation="fadeInUp" data-animation-delay="0">
+                        <h4> Narezushi </h4>
+                        <div class="imgContainer-cardapio">
+                            <img class="img-responsive13" src="./img/narezushi.jpg">
+                        </div> 
+                        <div class="icon-preco-prato">
+                            <center><p>R$ 25.00</p></center>
+                        </div>
+                        <div class="adcPedido">
+                            <button class="botao-adcPed13">ADICIONAR AOS PEDIDOS</button>
+                        </div> 
+                    </div>       
+                </div>
+                    <!--FLEX ITEM DO PRATO 14-->
+                <div class="prato14">
+                    <div class="icone-prato14" data-animation="fadeInUp" data-animation-delay="0">
+                        <h4> Edomae chirashizushi </h4>
+                        <div class="imgContainer-cardapio">
+                            <img class="img-responsive14" src="./img/Edomae-chirashizushi.jpg">
+                        </div> 
+                        <div class="icon-preco-prato">
+                            <center><p>R$ 25.00</p></center>
+                        </div> 
+                        <div class="adcPedido">
+                                <button class="botao-adcPed14">ADICIONAR AOS PEDIDOS</button>
+                        </div> 
+                    </div>
+                </div> 
+                    <!--FLEX ITEM DO PRATO 15-->
+                <div class="prato15">
+                    <div class="icone-prato15" data-animation="fadeInUp" data-animation-delay="0">
+                        <h4> Edomae chirashizushi </h4>
+                        <div class="imgContainer-cardapio">
+                            <img class="img-responsive15" src="./img/Edomae-chirashizushi.jpg">
+                        </div> 
+                        <div class="icon-preco-prato">
+                            <center><p>R$ 25.00</p></center>
+                        </div> 
+                        <div class="adcPedido">
+                            <button class="botao-adcPed15">ADICIONAR AOS PEDIDOS</button>
+                        </div> 
+                    </div>
+                </div> 
+                    <!--FLEX ITEM DO PRATO 16-->
+                <div class="prato16">
+                    <div class="icone-prato16" data-animation="fadeInUp" data-animation-delay="0">
+                        <h4> Edomae chirashizushi </h4>
+                        <div class="imgContainer-cardapio">
+                            <img class="img-responsive16" src="./img/Edomae-chirashizushi.jpg">
+                        </div> 
+                        <div class="icon-preco-prato">
+                            <center><p>R$ 25.00</p></center>
+                        </div> 
+                        <div class="adcPedido">
+                            <button class="botao-adcPed16">ADICIONAR AOS PEDIDOS</button>
+                        </div> 
+                    </div>
+                </div> 
+                    <!--FLEX ITEM DO PRATO 17-->
+                <div class="prato17">
+                    <div class="icone-prato14" data-animation="fadeInUp" data-animation-delay="0">
+                        <h4> Edomae chirashizushi </h4>
+                        <div class="imgContainer-cardapio">
+                            <img class="img-responsive17" src="./img/Edomae-chirashizushi.jpg">
+                        </div> 
+                        <div class="icon-preco-prato">
+                            <center><p>R$ 25.00</p></center>
+                        </div> 
+                        <div class="adcPedido">
+                            <button class="botao-adcPed17">ADICIONAR AOS PEDIDOS</button>
+                        </div> 
+                    </div>
+                </div>
+                    <!--FLEX ITEM DO PRATO 18-->
+                <div class="prato18">
+                    <div class="icone-prato18" data-animation="fadeInUp" data-animation-delay="0">
+                        <h4> Edomae chirashizushi </h4>
+                        <div class="imgContainer-cardapio">
+                            <img class="img-responsive18" src="./img/Edomae-chirashizushi.jpg">
+                        </div> 
+                        <div class="icon-preco-prato">
+                            <center><p>R$ 25.00</p></center>
+                        </div> 
+                        <div class="adcPedido">
+                            <button class="botao-adcPed18">ADICIONAR AOS PEDIDOS</button>
+                        </div> 
+                    </div>
+                </div>  
+                    <!--FLEX ITEM DO PRATO 19-->
+                <div class="prato19">
+                    <div class="icone-prato19" data-animation="fadeInUp" data-animation-delay="0">
+                        <h4> Edomae chirashizushi </h4>
+                        <div class="imgContainer-cardapio">
+                            <img class="img-responsive19" src="./img/Edomae-chirashizushi.jpg">
+                        </div> 
+                        <div class="icon-preco-prato">
+                            <center><p>R$ 25.00</p></center>
+                        </div> 
+                        <div class="adcPedido">
+                            <button class="botao-adcPed19">ADICIONAR AOS PEDIDOS</button>
+                        </div> 
+                    </div>
+                </div>
+                    <!--FLEX ITEM DO PRATO 20-->
+                <div class="prato20">
+                    <div class="icone-prato18" data-animation="fadeInUp" data-animation-delay="0">
+                        <h4> Edomae chirashizushi </h4>
+                        <div class="imgContainer-cardapio">
+                            <img class="img-responsive20" src="./img/Edomae-chirashizushi.jpg">
+                        </div> 
+                        <div class="icon-preco-prato">
+                            <center><p>R$ 25.00</p></center>
+                        </div> 
+                        <div class="adcPedido">
+                            <button class="botao-adcPed20">ADICIONAR AOS PEDIDOS</button>
+                        </div> 
+                    </div>
+                </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+        <button id="accordion-botao" data-text-swap="Ver Menos" class="accordion">Ver Mais</button>
     </div>
 
-
-
+    <!--RODAPÉ DA PÁGINA-->
     <footer class="rodape">
-                <div class="container-rodape">
-                    <div class="row">
-                        <div class="contato-rodape">
-                            <h3 class="contatos">CONTATO</h3>
-                            <div class="conteudo-contato">
-                                <ul class="lista-contatos">
-                                    <li>
-                                        <i class="fa fa-map-marker">                               
-                                        </i> 
-                                        <div class="info-det">
-                                            <address property="address" typeof="PostalAddress">
-                                                <span itemprop="Endereco-rua">Rua Clementino Lima, 184-Alto São Francisco</span>
-                                                <span itemprop="Localidade-endereco">Quixadá</span>
-                                                <span itemprop="Regiao-endereco">Ce</span>  
-                                            </address>
-                                        </div>
-                                    </li>
-                                    <li>
-                                            <i class="fa fa-phone"></i> 
-                                        <div class="info-det">
-                                            <span itemprop="telefone" content="(88) 3412-6666">(88) 3412-6666</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-envelope"></i> 
-                                        <div class="info-det">
-                                        <a href="www.gmail.com" title="merosushibar@gmail.com">merosushibar@gmail.com</a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a href="htttps://www.facebook.com" title="Facebook">facebook</a>
-                                        <i class="fa fa-facebook">
-                                        </i>
-                                    </li>
-                                    <li>
-                                        <a href="htttps://www.instagram.com" title="Instagram">instagram</a>
-                                        <i class="fa fa-instagram">
-                                        </i>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="horario-funciona">
-                            <h3 class="horarioFun">HORÁRIO DE FUNCIONAMENTO</h3>
-                            <div class="conteudo-horario">
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td>Seg a Quin:</td>
-                                            <td>&nbsp;</td>
-                                            <td>Almoço - &nbsp;</td>
-                                            <td>&nbsp;</td>
-                                            <td>
-                                                <span style="line-height:20.799px;">
-                                                    <time itemprop="HorarioFuncionamento" datetime="Mo-th 12:00-15:00 18:00-23:00">
-                                                        12h às 15h / Jantar - 18h às 23h
-                                                    </time>
-                                                </span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Sexta:</td>
-                                            <td>&nbsp;</td>
-                                            <td>Almoço - &nbsp;</td>
-                                            <td>&nbsp;</td>
-                                            <td>
-                                                <span style="line-height:20.799px;">
-                                                    <time itemprop="HorarioFuncionamento" datetime="Fri 12:00-15:00 18:00-24:00">
-                                                        12h às 15h / Jantar - 18h às 24h
-                                                    </time>
-                                                </span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Sábado:</td>
-                                            <td>&nbsp;</td>
-                                            <td>Almoço - &nbsp;</td>
-                                            <td>&nbsp;</td>
-                                            <td>
-                                                <span style="line-height:20.799px;">
-                                                    <time itemprop="HorarioFuncionamento" datetime="Sat 12:00-16:00 18:00-24:00">
-                                                        12h às 16h / Jantar - 18h às 24h
-                                                    </time>
-                                                </span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Domingo:</td>
-                                            <td>&nbsp;</td>
-                                            <td>Almoço - &nbsp;</td>
-                                            <td>&nbsp;</td>
-                                            <td>
-                                                <span style="line-height:20.799px;">
-                                                    <time itemprop="HorarioFuncionamento" datetime="Sat 12:00-16:00 18:00-23:00">
-                                                        12h às 16h / Jantar - 18h às 23h
-                                                    </time>
-                                                </span>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>   
+        <div class="container-rodape">
+            <div class="row">
+                <div class="contato-rodape">
+                    <h3 class="contatos">CONTATO</h3>
+                    <div class="conteudo-contato">
+                        <ul class="lista-contatos">
+                            <li>
+                                <i class="fa fa-map-marker"></i> 
+                                <div class="info-det">
+                                    <address property="address" typeof="PostalAddress">
+                                        <span itemprop="Endereco-rua">Rua Clementino Lima, 184-Alto São Francisco</span>
+                                        <span itemprop="Localidade-endereco">Quixadá</span>
+                                        <span itemprop="Regiao-endereco">Ce</span>  
+                                    </address>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone"></i> 
+                                <div class="info-det">
+                                    <span itemprop="telefone" content="(88) 3412-6666">(88) 3412-6666</span>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i> 
+                                <div class="info-det">
+                                    <a class="gmail" href="www.gmail.com" title="merosushibar@gmail.com">merosushibar@gmail.com</a>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa fa-facebook"></i>
+                                <div class="info-det">
+                                    <a class="facebook" href="htttps://www.facebook.com" title="Facebook">facebook</a>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa fa-instagram"></i>
+                                <div class="info-det">
+                                    <a class="instagram" href="htttps://www.instagram.com" title="Instagram">instagram</a>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <h3>Antonio Edval Tavares de Melo Junior</h3>
-                </div>       
+                    </div>
+                    <div class="horario-funciona">
+                        <h3 class="horarioFun">HORÁRIO DE FUNCIONAMENTO</h3>
+                        <div class="conteudo-horario">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Seg a Quin:</td>
+                                        <td>&nbsp;</td>
+                                        <td>Almoço - &nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>
+                                            <span style="line-height:20.799px;">
+                                                <time itemprop="HorarioFuncionamento" datetime="Mo-th 12:00-15:00 18:00-23:00">
+                                                    12h às 15h / Jantar - 18h às 23h
+                                                </time>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sexta:</td>
+                                        <td>&nbsp;</td>
+                                        <td>Almoço - &nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>
+                                            <span style="line-height:20.799px;">
+                                                <time itemprop="HorarioFuncionamento" datetime="Fri 12:00-15:00 18:00-24:00">
+                                                    12h às 15h / Jantar - 18h às 24h
+                                                </time>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sábado:</td>
+                                        <td>&nbsp;</td>
+                                        <td>Almoço - &nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>
+                                            <span style="line-height:20.799px;">
+                                                <time itemprop="HorarioFuncionamento" datetime="Sat 12:00-16:00 18:00-24:00">
+                                                    12h às 16h / Jantar - 18h às 24h
+                                                </time>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Domingo:</td>
+                                        <td>&nbsp;</td>
+                                        <td>Almoço - &nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>
+                                            <span style="line-height:20.799px;">
+                                                <time itemprop="HorarioFuncionamento" datetime="Sat 12:00-16:00 18:00-23:00">
+                                                    12h às 16h / Jantar - 18h às 23h
+                                                </time>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>   
+                </div>
+                <h3 class="nome">Antonio Edval Tavares de Melo Junior</h3>
+            </div> 
+        </div>      
     </footer>
 
+    <!-- CHAMANDO OS JAVASCRIPT E O JQUERY -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/cardapio.js"></script>
+    
 </body>
 </html>
