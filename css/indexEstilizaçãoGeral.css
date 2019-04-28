@@ -1,17 +1,16 @@
 *{
     margin: 0;  
     padding: 0;
-    /*background: #E2DDF0;*/
 }
 
 /*HEADER DO HTML*/
 .cabecalhoPrincipal{
-    background: #696969;
+    background: #161616;
     padding: 20px;
 }
 .container-menu{
     display: flex;
-    background: #696969;
+    background: #161616;
     align-items: center;
     justify-content: space-between;
 }
@@ -24,7 +23,7 @@
 .cabecalho-menu{
     margin-left: 10px;
     margin-top: 10px;
-    background: #696969;
+    background: #161616;
 }
 .nav-main{
     position: relative;
@@ -34,27 +33,24 @@
 
 }
 .nav-main a{
-  float: right;
-  display: block;
-  text-align: center;
-  padding: 35px;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 200px;
+    flex-direction: row;
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200px;
 }
 
 .nav-main a:hover{
-    background-color: #CC0000;
+    background-color: #ff4040;
     color: white;
     padding: 35px;
 
 }
 
-
 /*RODAPÉ DA PÁGINA-FOOTER*/
 .contato-rodape{
-    background: #696969;
-    top: 0;
+    background: #161616;
 }
 .row{
     display: flex;
@@ -62,22 +58,47 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 200px;
-    background: #696969;
+    background: #161616;
 }
 .contato-rodape{
     text-align: center;
-    background: #696969;
-
+    background: #161616;
+}
+.lista-contatos{
+    list-style-type: none;
 }
 .horario-funciona{
+    color: #ff4040;
     text-align: center;
 }
-.conteudo-horario .lista-contato li{
-    text-align: center;
+.contatos{
+    color: #ff4040;
 }
-
+.info-det{
+    text-decoration: none;
+    color: #ff4040;
+}
+.info-det .gmail{
+    color: #ff4040;
+    text-decoration: none;
+}
+.info-det .facebook{
+    color: #ff4040;
+    text-decoration: none;
+}
+.info-det .instagram{
+    color: #ff4040;
+    text-decoration: none;
+}
+.horarioFun{
+    color: #ff4040;
+}
+.TabHorFun tbody tr td{
+    color: #ff4040;
+}
 .nome{
+    color: #ff4040;
     padding-top: 10px;
     text-align: center;
-    background: #696969;
+    background: #161616;
 }

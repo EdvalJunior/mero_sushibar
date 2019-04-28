@@ -1,7 +1,6 @@
 *{
     margin: 0;  
     padding: 0;
-    /*background: #E2DDF0;*/
 }
 
 /*ESTILIZAÇÃO DO CORPO DO SLIDE*/
@@ -30,13 +29,16 @@
 }
 
 /*OPÇÕES SOBRE AS FORMAS DE COMER*/
+.pagina-conteudo-FormasServico{
+    background: #f6f6f6;
+}
 .modelo-comer{
     text-align: center;
-    background: #696969;
     position: relative;
     margin-right: 20px;
     margin-left: 20px;
-    color: #2F4F4F;
+    color: #ff4040;
+    padding-top: 30px;
 }
 .formasComer{
     display: flex;
@@ -45,34 +47,43 @@
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 30px;
 }
+/*ESTILIZAÇÃO(MODELO DE ATENDIMENTO/ FORMAS DE ATENDIMENTO)*/
+h3 .leg-Rod{
+    text-decoration: none;
+    color: black;
+}
+h3 .leg-Carte{
+    text-decoration: none;
+    color: black;
+}
+h3 .leg-Saq{
+    text-decoration: none;
+    color: black;
+}
+/*ESTILIZAÇÃO(MODELO DE ATENDIMENTO/ FORMAS DE ATENDIMENTO / IMAGENS)*/
 .imgContainer .img-responsive{
     width: 200px;
     height: 200px;
-    border-radius: 200px;
 }
 .imgContainer .img-responsive:hover{
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
 }
-
 .imgContainer2 .img-responsive2{
     width: 200px;
     height: 200px;
-    border-radius: 200px;
 }
 .imgContainer2 .img-responsive2:hover{
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
 }
-
 .imgContainer3 .img-responsive3{
     width: 200px;
     height: 200px;
-    border-radius: 200px;
 }
 .imgContainer3 .img-responsive3:hover{
     -webkit-transform: scale(0.8);
@@ -80,21 +91,20 @@
     transform: scale(0.8);
 }
 
-.atendimentoSaque{
-    margin-top: 10px;
-}
 
 /*PRATOS DO DIA */
+.página-conteudo-pratos{
+    background: #f6f6f6;
+}
 .container-pratos{
     text-align: center;
     margin-top: 50px;
 }
 .container-pratos .sensacao{
-    background: #696969;
     position: relative;
     margin-right: 20px;
     margin-left: 20px;
-    color: #2F4F4F;
+    color: #ff4040;
 }
 .pratosDia{
     display: flex;
@@ -107,32 +117,24 @@
     width: 200px;
     height: 200px;
     margin-top: 10px;
-    border-radius: 200px;
 }
 .imgContainer-pratos .img-responsive2{
     width: 200px;
     height: 200px;
     margin-top: 10px;
-    border-radius: 200px;
 }
 .imgContainer-pratos .img-responsive3{
     width: 200px;
     height: 200px;
     margin-top: 10px;
-    border-radius: 200px;
 }
-
-
 .imgContainer-pratos .img-responsive4{
     width: 200px;
     height: 200px;
     margin-top: 10px;
-    border-radius: 200px;
 }
-
 .imgContainer-pratos .img-responsive5{
     width: 200px;
     height: 200px;
     margin-top: 10px;
-    border-radius: 200px;
 }

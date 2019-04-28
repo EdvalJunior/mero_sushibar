@@ -1,14 +1,23 @@
 /*CORPO DO SOBRE NÓS*/
+
+h1{
+    color: #ff4040;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.container{
+    background: #f6f6f6;
+    margin-top: 20px;
+}
 .txtSobreNos{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-h1{
-    margin-top: 10px;
-    margin-left: 20px;
+.sobrenos_logo{
+    margin-top: 20px;
 }
-
 .texto_sobrenos{
     margin-top: 20px;
     text-align: justify;

@@ -1,32 +1,362 @@
+
+/*ESTILIZAÇÃO(CORPO DO CARDÁPIO)*/
+.Body{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*ESTILIZAÇÃO(PRATOS-TITULO)*/
 h1{
     text-align: center;
+    color: #ff4040;
     margin-top: 20px;
 }
 
+/*ESTILIZAÇÃO(CONTAINER QUE CONTÉM CARDÁPIO)*/
 .pratos-cardapio{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 20px;
+    background: #f6f6f6;
 }
 
+/*NOMES, IMAGENS E PREÇOS DOS PRATOS*/
+.prato1{
+    padding: 10px;
+}
 .imgContainer-cardapio .img-responsive{
     width: 200px;
     height: 200px;
     margin-top: 10px;
-    border-radius: 20px;
+}
+.adcPedido .botao-adcPed{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+.prato2{
+    padding: 10px;
 }
 .imgContainer-cardapio .img-responsive2{
     width: 200px;
     height: 200px;
     margin-top: 10px;
-    border-radius: 20px;
+}
+.adcPedido .botao-adcPed2{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+.prato3{
+    padding: 10px;
 }
 .imgContainer-cardapio .img-responsive3{
     width: 200px;
     height: 200px;
     margin-top: 10px;
-    border-radius: 20px;
 }
+.adcPedido .botao-adcPed3{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+.prato4{
+    padding: 10px;
+}
+.imgContainer-cardapio .img-responsive4{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.adcPedido .botao-adcPed4{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+.prato5{
+    padding: 10px;
+}
+.imgContainer-cardapio .img-responsive5{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.adcPedido .botao-adcPed5{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+.prato6{
+    padding: 10px;
+}
+.imgContainer-cardapio .img-responsive6{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.adcPedido .botao-adcPed6{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+.prato7{
+    padding: 10px;
+}
+.imgContainer-cardapio .img-responsive7{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.adcPedido .botao-adcPed7{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+.prato8{
+    padding: 10px;
+}
+.imgContainer-cardapio .img-responsive8{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.adcPedido .botao-adcPed8{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+.prato9{
+    padding: 10px;
+}
+.imgContainer-cardapio .img-responsive9{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.adcPedido .botao-adcPed9{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+.prato10{
+    padding: 10px;
+}
+.imgContainer-cardapio .img-responsive10{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.adcPedido .botao-adcPed10{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+/*PARA DEIXAR O PRATO OCULTO PARA QUANDO PRESSIONAR
+        MAIS ELE APAREÇA*/
+.prato11{
+    padding: 10px;
+}
+.imgContainer-cardapio .img-responsive11{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.adcPedido .botao-adcPed11{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+.prato12{
+    padding: 10px;
+}
+.imgContainer-cardapio .img-responsive12{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.adcPedido .botao-adcPed12{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+.prato13{
+    padding: 10px;
+}
+.imgContainer-cardapio .img-responsive13{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.adcPedido .botao-adcPed13{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+.prato14{
+    padding: 10px;
+}
+.imgContainer-cardapio .img-responsive14{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.adcPedido .botao-adcPed14{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+.prato15{
+    padding: 10px;
+}
+.imgContainer-cardapio .img-responsive15{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.adcPedido .botao-adcPed15{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+.prato16{
+    padding: 10px;
+}
+.imgContainer-cardapio .img-responsive16{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.adcPedido .botao-adcPed16{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+.prato17{
+    padding: 10px;
+}
+.imgContainer-cardapio .img-responsive17{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.adcPedido .botao-adcPed17{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+.prato18{
+    padding: 10px;
+}
+.imgContainer-cardapio .img-responsive18{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.adcPedido .botao-adcPed18{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+.prato19{
+    padding: 10px;
+}
+.imgContainer-cardapio .img-responsive19{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.adcPedido .botao-adcPed19{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+.prato20{
+    padding: 10px;
+}
+.imgContainer-cardapio .img-responsive20{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.adcPedido .botao-adcPed20{
+    border-radius: 35px;
+    padding: 10px;
+    color: #ff4040;
+    border: solid #ff4040 1px;
+    background: #e4e4e4;
+}
+/*ESTILIZAÇÃO SOBRE O BOTÃO VER MAIS*/
+.accordion{
+    background: #f6f6f6;
+}
+.container-pratos-accordion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+button.accordion {
+    -webkit-border-radius: 35;
+    -moz-border-radius: 35;
+    background-color: #ffffff00;
+    border-radius: 35px;
+    color: #ff4040;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #ff4040 2px;
+    text-decoration: none;
+    cursor: pointer;
+}
+button.accordion:hover, button.active {
+    opacity: 0.7;
+    background: #ff4040;
+    text-decoration: none;
+    color: white;
+}
+div.accordion{
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
 
